@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script
+       src="https://kit.fontawesome.com/24c494a6b6.js"
+       crossorigin="anonymous"
+     ></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+      .dropbtn {
+    
+    font-weight: bold;
+    margin-top: 35px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: white;
+  }
+  
+  </style>
+</head>
+<body>
+<div id="Allnav">
+  <div class="searchbox" >
+    <div>
+      <a href="Home.html"><img src="https://lh3.googleusercontent.com/SqhWS25oaEt-c1d1j0OcPG2T7VdCbc4vabLKFjpeApxvUlJCo3qOT6P-6x2XZsc0NLC5wND3aAWHzJJL90In0k65nhs7Ej5hA9OMWlngbp7u-ujzgcrBl8C_qfd6iuk3ZCt5BgvMIwCrU0IpTUXyq-7b7jyXvENS51PinMYq-t3Gt5ZKhcx4mxzA0VP7NCqp2TElqvDOpB9jU2iH2ji89_wTMfw_OPyB6FYSZWUpaBKZVVo99eUwk36C0GPiVKjPHQcHS6O2boyzmC1Q6HH6H-2SfzfNErOJ0rHfxA5XXO7gZ-1Y5Mfj4skGxyuSXzMo_aVL18CQQFUheB3xRSvr5cBgB_mE9g4bzB61YEyrsWmMMyV132YJHjdnC9oO70BJ1A3EY-Tvv5x2h1ZlscqRCki6iy-CbER-1tsgp6AoJz2ayiVVWlgvgPT3KKLk_PkBmTNYOy2S9ivL8kNog1mfuXBjgDAl0f7-AmoIqpLOVLMZzO4yKYLsqy4Wcg9Br5pd0iKH6B65nm7KUiB4iSGsSX6-wGN6jp4Ivc0Mjcr6dqNn1uhQbCsZkhf3DaOe63PSufiUrr-TNMmCyMpbXg73ui_blcnyHdMMoGhsKaXXe2rUoFZg15t1314FQJNR2TdU0cUEKOEcuZ7JQeVAOmGCuR8n4qNODHk1SN6vGs0GbS9EEt2SrhIImPuGj46koTxWLaqTUJmZpXF1crThec9dkCTbbe_lKSXqRB50S61dIpvkqh35GZWK=w323-h93-no?authuser=0" alt="logo"></a>
+    </div>
+    <div>
+     
+        <input type="text" placeholder="Search for a product or brand..." id="search" ><i class="fa-solid fa-magnifying-glass"></i>
+      
+    </div>
+    
+    <div class="dropdown">
+        <button class="dropbtn">Account</button>
+        <div class="dropdown-content">
+        <a href="#">login</a>
+        <a href="#">SignUp</a>
+        
+        
+        </div>
+      </div>
+      
+    <div class="h3">
+      <h3><i class="fa-regular fa-cart-arrow-up"></i>Cart</h3>
+    </div>
+  </div>
+  <!-- ********************Nav************Bar******* -->
+  <div id="navbar">
+    <div><a href=""><p>Brand</p></a></div>
+    <div><a href=""><p>Browse By</p></a></div>
+    <div><a href="Bestsellers.html"><p>Bestsellers</p></a></div>
+    <div><a href="Skin_care.html"><p>Skin Care</p></a></div>
+    <div><a href="Makeup.html"><p>Makeup</p></a></div>
+    <div><a href="hair_care.html"><p>Hair Care</p></a></div>
+    <div><a href="Bath_body.html"><p>Bath & Body</p></a></div>
+    <div><a href="Tool_Devices.html"><p>Tools & Devices</p></a></div>
+    <div><a href="Gift_Sets.html"><p>Gifts & Sets</p></a></div>
+    <div><a href=""><p>BeautyFIX</p></a></div>
+    <div><a href="sales.html"><p>Sale</p></a></div>
+    <div><a href="New.html"><p>New</p></a></div>
+    <div><a href=""><p>Skin 101</p></a></div>
+  </div>
+  <hr>
+</div>
+  <!-- **********Free shipping over*********** -->
+  <div class="shippingbox" >
+    <div><p>FREE shipping over $50</p></div>
+    <div><p>New customere save 15% with code WELCOME15</p></div>
+    <div><p>Redeem Dermstore Rewards</p></div>
+    <div><p>Pay in 4 with Sezzle</p></div>
+  </div>
+  <!-- **************supercharge*************** -->
+  <div class="supercharge">
+    <div><p>Supercharge your skin with 30% off Neocutis.USE code:NEOCUTIS30.Plus,free$32gift when you spend $150+ on Neocutis.SHOP NOW</p></div>
+  </div>
+
+
+        <!-- ********************home skin******** -->
+        <div class="homeskin">
+          <div><p>Home</p></div>
+          <div><p>/</p></div>
+          <div><p>Dermstore Bestsellers</p></div>
+        </div>
+        <!-- ************category************ -->
+        <div class="category1">
+          <div>
+            <img src="https://static.thcdn.com/images/small/webp/widgets/208-us/16/original-Page-001-110916.jpg" alt="">
+          </div>
+          <div>
+            <img src="https://static.thcdn.com/images/small/webp/widgets/208-us/20/original-Page-002-110920.jpg" alt="">
+          </div>
+          <div>
+            <img src="https://static.thcdn.com/images/small/webp/widgets/208-us/24/original-Page-003-110924.jpg" alt="">
+          </div>
+          <div>
+            <img src="https://static.thcdn.com/images/small/webp/widgets/208-us/29/original-Page-004-110929.jpg" alt="">
+          </div>
+          <div>
+            <img src="https://static.thcdn.com/images/small/webp/widgets/208-us/33/original-Page-005-110933.jpg" alt="">
+          </div>
+          <div>
+            <img src="https://static.thcdn.com/images/small/webp/widgets/208-us/37/original-Page-006-110937.jpg" alt="">
+          </div>
+        </div>
+        <!-- *********sidebar******* -->
+        <div class="sidebar">
+          <div>
+            <h3>Refine</h3>
+            <hr>
+            <h3>Brand</h3>
+            <hr class="hr1">
+            <ul>
+              <li><a href="#home">100% Pure (27)</a></li>
+              <li><a href="#news">111Skin(51)</a></li>
+              <li><a href="#contact">3LAB(20)</a></li>
+              <li><a href="#about">Advance Botanics(2)</a></li>
+              <li><a href="#home">African Botanics</a></li>
+              <li><a href="#news">AGENT NATURE</a></li>
+              <li><a href="#contact">Alchimie Forever</a></li>
+              <li><a href="#about">Alpha-H</a></li>
+            </ul>
+
+
+            <h3>Skincare Product Type</h3>
+            <hr class="hr1">
+            <ul>
+              <li><a href="#home">Moisturizers(1530)</a></li>
+              <li><a href="#news">Serum(843)</a></li>
+              <li><a href="#contact">CleanSers</a></li>
+              <li><a href="#about">Eye Care(425)</a></li>
+              <li><a href="#home">Masks</a></li>
+              <li><a href="#news">Toners</a></li>
+              <li><a href="#contact">Lip Care</a></li>
+              <li><a href="#about">Exfoliators</a></li>
+            </ul>
+            
+
+            <h3>Skin Type</h3>
+            <hr class="hr1">
+            <ul>
+              <li><a href="#home">100% Pure (27)</a></li>
+              <li><a href="#news">111Skin(51)</a></li>
+              <li><a href="#contact">3LAB(20)</a></li>
+              <li><a href="#about">Advance Botanics(2)</a></li>
+              <li><a href="#home">African Botanics</a></li>
+              <li><a href="#news">AGENT NATURE</a></li>
+              <li><a href="#contact">Alchimie Forever</a></li>
+              <li><a href="#about">Alpha-H</a></li>
+            </ul>
+
+
+
+            <h3>Skincare Concern</h3>
+            <hr class="hr1">
+            <ul>
+              <li><a href="#home">Moisturizers(1530)</a></li>
+              <li><a href="#news">Serum(843)</a></li>
+              <li><a href="#contact">CleanSers</a></li>
+              <li><a href="#about">Eye Care(425)</a></li>
+              <li><a href="#home">Masks</a></li>
+              <li><a href="#news">Toners</a></li>
+              <li><a href="#contact">Lip Care</a></li>
+              <li><a href="#about">Exfoliators</a></li>
+            </ul>
+
+
+            <h3>Skincare Lips</h3>
+            <hr class="hr1">
+            <ul>
+              <li><a href="#home">100% Pure (27)</a></li>
+              <li><a href="#news">111Skin(51)</a></li>
+              <li><a href="#contact">3LAB(20)</a></li>
+              <li><a href="#about">Advance Botanics(2)</a></li>
+              <li><a href="#home">African Botanics</a></li>
+              <li><a href="#news">AGENT NATURE</a></li>
+              <li><a href="#contact">Alchimie Forever</a></li>
+              <li><a href="#about">Alpha-H</a></li>
+            </ul>
+
+
+            <h3>Skincare Day Night</h3>
+            <hr class="hr1">
+            <ul>
+              <li><a href="#home">Moisturizers(1530)</a></li>
+              <li><a href="#news">Serum(843)</a></li>
+              <li><a href="#contact">CleanSers</a></li>
+              <li><a href="#about">Eye Care(425)</a></li>
+              <li><a href="#home">Masks</a></li>
+              <li><a href="#news">Toners</a></li>
+              <li><a href="#contact">Lip Care</a></li>
+              <li><a href="#about">Exfoliators</a></li>
+            </ul>
+
+
+            <h3>Gender</h3>
+            <hr class="hr1">
+            <ul>
+              <li><a href="#home">Boys(30)</a></li>
+              <li><a href="#news">Girls(3)</a></li>
+              <li><a href="#contact">Men(1670)</a></li>
+              <li><a href="#about">Women(2945)</a></li>
+              
+            </ul>
+
+
+            <h3>Price</h3>
+            <hr class="hr1">
+            <ul>
+              <li><a href="#home">Less than $10(72)</a></li>
+              <li><a href="#news">$10-25$(435)</a></li>
+              <li><a href="#contact">$25-$50(1526)</a></li>
+              <li><a href="#about">50$-75$</a></li>
+              <li><a href="#home">75$-100$</a></li>
+              <li><a href="#news">100$-125$</a></li>
+              <li><a href="#contact">125$-150$</a></li>
+              <li><a href="#about">150$-175$</a></li>
+            </ul>
+
+            <h3>Average Reviews</h3>
+            <hr class="hr1">
+            <ul>
+              <li><a href="#home">2-3(19)</a></li>
+              <li><a href="#news">3-4(254)</a></li>
+              <li><a href="#contact">4+(3029)</a></li>
+              
+            </ul>
+          </div>
+          <div class="productpart">
+            <div><h3>Dermstore Bestsellers</h3></div>
+            <div><p>578 result</p></div>
+            <div><p>The beauty, skin & hair products you're unapologetically obsessed with. And we understand. From skin care as an expression of self-care, to hair care revolve self-confidence around, shop our tried and tested products that are loved by thousands delivered straight to your door. </p></div>
+
+
+            <div id="sort_by">
+              <div><p>sort by</p></div>
+              <div>
+                <select name="" id="select">
+                  <option value="Default">Default</option>
+                  <option value="Bestsellers">Bestsellers</option>
+                  <option value="Price:Low to high">Price:Low to high</option>
+                  <option value="price:high to low">price:high to low</option>
+                  <option value="A-Z">A-Z</option>
+                  <option value="Newest Arrivals">Newest Arrivals</option>
+                  <option value="Percentage Discount">Percentage Discount</option>
+                </select>
+              </div>
+            </div>
+
+            <div id="container"></div>
+          </div>
+
+
+          
+          <!-- **********body****** -->
+        </div>
+
+        <hr>
+      
+  <div class="mainfooter">
+    <div>
+      <p>Sign up to our newsletters and receive the latest exclusive discounts and deals</p>
+      <a href=""><button>SIGN ME UP</button></a>
+    </div>
+    <div >
+      <p>Connect with us</p>
+        <div class="social_icon">
+          <div><a href="#"><img src="https://cdn-icons.flaticon.com/png/128/3670/premium/3670032.png?token=exp=1651573978~hmac=3bb4489487839fbaa24c9ff6ba1807b6" alt=""></a></div>
+        <div><a href="#"><img src="https://cdn-icons.flaticon.com/png/128/3670/premium/3670127.png?token=exp=1651574438~hmac=e769bf83ad3b6ad567a487f44e2c3939" alt=""></a></div>
+        <div><a href="#"><img src="https://cdn-icons-png.flaticon.com/128/1362/1362857.png" alt=""></a></div>
+        <div><a href="#"><img src="https://cdn-icons.flaticon.com/png/128/2175/premium/2175222.png?token=exp=1651574625~hmac=703ea4e453eebafef4f0c041730bfca3" alt=""></a></div>
+        <div><a href="#"><img src="https://cdn-icons.flaticon.com/png/128/2175/premium/2175205.png?token=exp=1651574718~hmac=543e57f8868eb3b8a414e900298555da" alt=""></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- **********footer 2nd box********** -->
+  <div class="line">
+    <div>
+      <hr>
+      <div><a href=""><p>Customer Service</p></a></div>
+      <div><a href=""><p>Help Center/FAQs</p></a></div>
+      <div><a href=""><p>Returns</p></a></div>
+      <div><a href=""><p>Shipping information</p></a></div>
+      <div><a href=""><p>Order Status</p></a></div>
+      <div><a href=""><p><i class="fa-solid fa-cookie"></i>  CooKie Setting</p></a></div>
+    </div>
+    <div>
+      <hr>
+      <div><a href=""><p>My Account</p></a></div>
+      <div><a href=""><p>Manage My Subscription </p></a></div>
+      <div><a href=""><p>My Rewards</p></a></div>
+      <div><a href=""><p>My Favourites</p></a></div>
+      <div><a href=""><p>Referrals</p></a></div>
+      <div><a href=""><p>Order History</p></a></div>
+    </div>
+    <div>
+      <hr>
+      <div><a href=""><p>Company</p></a></div>
+      <div><a href=""><p>About Us</p></a></div>
+      <div><a href=""><p>Press</p></a></div>
+      <div><a href=""><p>What is Klarna?</p></a></div>
+      
+    </div>
+    <div>
+      <hr>
+      <div><a href=""><p>Legal</p></a></div>
+      <div><a href=""><p>Privacy Police</p></a></div>
+      <div><a href=""><p>Terms & Condition</p></a></div>
+      <div><a href=""><p>Modern Slavery Statement</p></a></div>
+      <div><a href=""><p>Product Recall</p></a></div>
+      <div><a href=""><p>Accessibility</p></a></div>
+    </div>
+  </div>
+  <!-- ************footer 3rdbox************ -->
+  <hr>
+  <div class="thg">
+    <img src="https://lh3.googleusercontent.com/Jy16XFjLAciGpCReqmsHYk0YFWmy1mtrFIiTWzf2qVfwbPQJdVONnB2B247UwaQi_PyFRPUekaB7VPG81NfDPfbP0U_6GRDSpLPZ8ha4qV3ZlbVpCp4-2eVCiCxTauI8mN9IeCIaNSCDoSTmFsMJT8kbStTbh3itfng59545nfOifa3N_pizlLvBY-DCxSBLIDCvHe8YoFKgO-EjkO7imVvr-Yiedv-d3oB3tEJgrN0cqBvKmEJnEIkpPWRPFK4QqKgswEXlQbdsjy0c08XfKY8NGB5cvVnZK3fVGGX354zjAQRIQOc_OMhIGI9yQ60Ivom3RIIJwGWWJvaZF9NgrovlR_A4P9CP7aJlWgXfwZxlaoxCmUN-FdKxENtXQWOrlqExTkmekiwW7EvzLBnRbBsq-aKcEuiJLGTSnUKCbcHNia4yiXtq3R1ORxmFqtNmn9SJ_m2NBxu1QLVzadOpQRM-ukGjS6CSUq8-HMZwjrXhU7rQzWa0g2i9P97ZWLKS6ehOmHjP2XGBr-y3csDtfFMNHhRIvZQw8W-pDXHdugZIHbaHXucdJTAJnKDx1WZTGsSVT4VplTzkRJDRjSgo43c3e7ma9He8GWmf48XCisdUlMXDYWEcHSc5drNyOjflvPZtuH4l01kLsnjMI3rNWT-EFlFHPubI2WjpkOuVSIZ4kY1fJuD1Nw55mrdKba61AZ1IhfI-asGJfUSU-aAfixXQnKCD9_OIEJdwvpbE2MEHn_s0zmhj=w1898-h213-no?authuser=0" alt="">
+  </div>
+
+</body>
+</html>
+
+<script>
+
+var mensData = [
+    {
+      image_url:
+        "https://static.thcdn.com/images/small/webp//productimg/original/11289609-8744892770898772.jpg",
+      age:"New!",
+      name: "SkinCeuticals C E Ferulic(1fl)",
+      wick:"3-Wick Candle",
+      price: "$26.50",
+      btn:"QUICK BUY",
+      
+    },
+    {
+      image_url:
+        "https://static.thcdn.com/images/small/webp//productimg/original/11291543-2074864291141689.jpg",
+      age:"New!", 
+      name: "Obagi Medical Professinal-c Serum 20%",
+      wick:"Single Wick Candle",
+
+      price: "$15.50",
+      btn:"QUICK BUY",
+    },
+    {
+      image_url:
+        "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw8abe774f/crop/026448741_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+
+      name: "Copper Coconut Sands",
+      wick:"Single Wick Candle",
+      price: "$15.50",
+      
+      btn:"QUICK BUY",
+      
+    },
+
+    {
+      image_url:
+        "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwa5dea731/crop/026437366_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      age: "New fragrance",
+      name: "Beach Weather",
+      wick:"Single wicks Candle",
+      price: "$15.50",
+      btn:"QUICK BUY",
+    },
+    {
+        image_url:
+        "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw70e74edd/crop/026480790_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      age:"New Fragrance",
+      name:"Beach Weather",
+      wick:"3-Wick Candle",
+      price:"$26.50",
+      btn:"QUICK BUY",
+    },
+    {
+        image_url:
+    "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwe60c08df/crop/026448734_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      age:"New!",
+      name: "Waikiki Beach Coconut",
+      wick:"3-Wick Candle",
+      price: "$26.50",
+      btn:"QUICK BUY",
+      
+    },
+    
+    {
+        image_url:
+        "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw70e74edd/crop/026480790_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      age:"New!",
+      name:"Island Margarita",
+      wick:"3-wick Candle",
+      price:"$26.50",
+      btn:"QUICK BUY",
+    },
+    {
+        image_url:
+        "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw9f23f750/crop/026482403_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      age:"New!",
+      name:"Passiofrut & Banana Flower",
+      wick:"3-wick candel",
+      price:"$26.50",
+      btn:"QUICK BUY",
+    },
+    {
+        image_url:
+        "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw3b9b3d20/crop/026452599_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      age:"New!",
+      name:"Fresh Bamboo",
+      wick:"3-Wick Candle",
+      price:"$26.50",
+      btn:"QUICK BUY",
+    },
+    {
+        image_url:
+        "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw5f6c42cb/crop/026448740_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      age:"New!",
+      name:"Tutti Frutti Candy",
+      wick:"3-Wick Candle",
+      price:"$26.",
+      btn:"QUICK BUY",
+    },
+    {
+        image_url:
+        "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw8caae0f7/crop/026448185_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      age:"New fresher",
+      name:"Tutti Frutti Candy",
+      wick:"3-wick Candel",
+      price:"$26.50",
+      btn:"QUICK BUY",
+    },
+    {
+        image_url:
+        "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw70e74edd/crop/026480790_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      age:"Online ExClusive ",
+      name:"Vintage",
+      wick:"Single Wich Candle",
+      price:"$15.50",
+      btn:"QUICK BUY",
+    },
+    {
+        image_url:
+        "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw3c22149c/crop/026438500_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      age:"New!",
+      name:"Tiki Beach",
+      wick:"3-Wick Candle",
+      price:"$26.50",
+      btn:"QUICK BUY",
+    },  
+    {
+        image_url:
+        "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwcf3f096b/crop/026448183_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      age:"New!",
+      name:"Strawberry Pound Cake",
+      wick:"3-Wick Candle",
+      price:"$24.50",
+      btn:"QUICK BUY",
+    },  
+    {
+        image_url:
+        "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwd6be5fe6/crop/026480788_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      age:"New Fragrance",
+      name:"Pink Pineapple Sunrise",
+      wick:"3-Wick Candle",
+      price:"$26.50",
+      btn:"QUICK BUY",
+    },  
+    {
+        image_url:
+        "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw257db0ed/crop/026480789_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      age:"New!",
+      name:"Fiji White Sands",
+      wick:"3-Wick Candle",
+      price:"$26.50",
+      btn:"QUICK BUY",
+    },
+    {  
+    image_url:
+        "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dw536b669c/crop/026480791_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      age:"New!",
+      name:"Iced Dragonfruit Tea",
+      wick:"Single wick Candle",
+      price:"$15.50",
+      btn:"QUICK BUY",
+    },  
+     
+    {
+        image_url:
+        "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwdfe0df3d/crop/026437376_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      age:"New Fragrance",
+      name:"Tropical Island Colada",
+      wick:"3-Wick Candle",
+      price:"$26.50",
+      btn:"QUICK BUY",
+    },  
+    {
+        image_url:
+        "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwb9f9f8db/crop/026448182_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      age:"New!",
+      name:"Fijji White Sande",
+      wick:"3-Wick Candel",
+      price:"$15.50",
+      btn:"QUICK BUY",
+    },  
+    {
+        image_url:
+        "https://cdn-fsly.yottaa.net/5d669b394f1bbf7cb77826ae/www.bathandbodyworks.com/v~4b.20f/dw/image/v2/BBDL_PRD/on/demandware.static/-/Sites-master-catalog/default/dwb356587d/crop/026478199_crop.jpg?sw=500&sh=600&sm=fit&q=75&yocs=o_s_",
+      age:"New!",
+      name:"Pink Watermilon",
+      wick:"3-Wick Candle",
+      price:"$26.50",
+      btn:"QUICK BUY",
+    },      
+  ];
+
+  mensData.map(function (elem) {
+    var box = document.createElement("div");
+
+    var img = document.createElement("img");
+    img.src = elem.image_url;
+    img.style.width="200px"
+    img.style.height="290px"
+    img.style.marginLeft="65px"
+    img.style.cursor="pointer"
+    
+    var age = document.createElement("p");
+    age.innerText=elem.age
+    age.style.textAlign="center"
+    age.style.marginLeft="40px"
+    age.style.color="#0f89c0"
+    age.style.marginTop="-5px"
+
+    
+
+    var name = document.createElement("h3");
+    name.textContent = elem.name;
+    name.style.marginTop="-10px"
+    name.style.textAlign="center"
+
+    var wick= document.createElement("p");
+    wick.innerText=elem.wick;
+    wick.style.textAlign="center"
+    wick.style.marginTop="-15px"
+
+    var price = document.createElement("p");
+    price.innerText = elem.price;
+    price.style.textAlign="center"
+    price.style.fontSize="30px"
+    price.style.marginTop="-10px"
+    price.style.marginBottom="10px"
+
+    var btn = document.createElement("button");
+    btn.innerText = elem.btn;
+    // btn.style.backgroundColor="#333333"
+    // btn.style.color="white"
+    btn.style.width="250px"
+    btn.style.border="2px solid black"
+    btn.style.padding="10px 17px"
+    btn.style.marginLeft="60px"
+    btn.style.cursor="pointer"
+    btn.style.marginBottom="90px"
+    btn.id="btn1"
+
+   
+
+
+
+    box.append(img, age, name,wick, price,btn);
+
+    document.querySelector("#container").append(box);
+  });
+</script>
+
